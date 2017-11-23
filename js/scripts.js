@@ -1,0 +1,11 @@
+var a = +prompt('Enter a', 0);
+	b = +prompt('Enter b', 0);
+	value = (a * a) - (2 * a * b) + (b * b);
+alert('Result = ' + value);
+console.log('Result = ' + value);
+symbol = value >= 0 ? 'Wynik dodatni' : 'Wynik ujemny';
+alert(symbol);
+console.log(symbol);
+zero = value == 0 ? 'Wynik równy zero' : 'Wynik różny od zera';
+alert(zero);
+console.log(zero);
